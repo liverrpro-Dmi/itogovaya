@@ -1,1 +1,136 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мото-блог Дмитрия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Мото-блог Дмитрия</div>
+                <button class="burger-menu" id="burgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav" id="mainNav">
+                    <a href="#posts">Посты</a>
+                    <a href="#photos">Фото</a>
+                    <a href="#info">Обо мне</a>
+                    <a href="#feedback">Обратная связь</a>
+                </nav>
+                <div class="user-info">
+                    <div class="avatar-wrapper">
+                        <img src="1.jpg" alt="Аватар" class="avatar">
+                        <span class="online-dot"></span>
+                    </div>
+                    <span>Дмитрий</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main class="main-content">
+            <div class="left-column">
+                <section id="posts" class="content-block">
+                    <h2>Последние посты</h2>
+                    <div class="post">
+                        <h3>Моя первая запись</h3>
+                        <p>Всем привет меня зовут Дима! Я живу в городе Норильск и очень люблю мотоциклы!</p>
+                        <p class="date">17.11.25</p>
+                    </div>
+                    <div class="post">
+                        <h3>Мой путь в мото-теме</h3>
+                        <p>Раньше я думал, что мотоциклы — это просто громкий рев и скорость. Как же я ошибался. Всё изменила одна поездка на эндуро. Это не просто «покататься». Это попасть в другой мир, где дорог нет. Где единственный путь — это тропа, которую ты сам для себя выбираешь.</p>
+                        <p class="date">18.11.25</p>
+                    </div>
+                    <div class="post">
+                        <h3>Почему я преподаю</h3>
+                        <p>Мне нравится учить людей ездить на мотоцикле, потому что я становлюсь свидетелем настоящего чуда — рождения нового мотоциклиста. Я вижу, как в их глазах зажигается та самая искра, которая когда-то зажглась и у меня.</p>
+                        <p class="date">19.11.25</p>
+                    </div>
+                </section>
+                <section id="photos" class="content-block">
+                    <h2>Фотографии</h2>
+                    <div class="photo-grid">
+                        <div class="photo-item">
+                            <img src="https://avatars.mds.yandex.net/i?id=d856fe13d75ba786ded7853b4118861b83ec85b0-12941940-images-thumbs&n=13" alt="Мотоцикл">
+                            <div class="photo-label">17.11.25</div>
+                        </div>
+                        <div class="photo-item">
+                            <img src="https://avatars.mds.yandex.net/i?id=c5e09750580b88f721446b33293ec5480e8c4aff-5858006-images-thumbs&n=13" alt="Мотоцикл">
+                            <div class="photo-label">17.11.25</div>
+                        </div>
+                        <div class="photo-item">
+                            <img src="https://avatars.mds.yandex.net/i?id=6593a5c7779b00ffff2858604e01129fef5db028-5656091-images-thumbs&n=13" alt="Мотоцикл">
+                            <div class="photo-label">17.11.25</div>
+                        </div>
+                        <div class="photo-item">
+                            <img src="https://avatars.mds.yandex.net/i?id=b4931791d7c87095e056e866be13f8ecc87d3319-16346950-images-thumbs&n=13" alt="Мотоцикл">
+                            <div class="photo-label">17.11.25</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="right-column">
+                <section id="info" class="content-block">
+                    <h2>Обо мне</h2>
+                    <p>Меня зовут Дмитрий и я мотоциклист.</p>
+                    <p>Для меня это не просто хобби, а состояние души. Мой день не по-настоящему начался, если я не слышал рыка своего железного коня.</p>
+                    <h3 style="margin: 20px 0 10px; color: #4a9eff;">Что я люблю всем сердцем:</h3>
+                    <ul class="info-list">
+                        <li>Чувство свободы: Когда шлем надевается, а дорога расстилается впереди, исчезают все проблемы и тревоги. Только я, мотор и бесконечный горизонт.</li>
+                        <li>Братство байкеров: То самое братское поднятие руки при встрече с попутчиком. Мы можем быть разными, но на дороге мы — одна семья.</li>
+                        <li>Адреналин: Момент, когда ты вкладываешься в поворот, чувствуешь сцепление с асфальтом и выходишь из него с улыбкой до ушей.</li>
+                        <li>Рев мотора: Этот звук — лучшая музыка, символ силы и надежности.</li>
+                        <li>Дорогу, а не пункт назначения: Иногда самые крутые находки — это не цель поездки, а маленький кафешек на обочине или вид, открывшийся после очередного подъема.</li>
+                    </ul>
+                </section>
+                <section id="feedback" class="content-block feedback-form">
+                    <h2>Обратная связь</h2>
+                    <p>Есть вопросы или предложения? Напишите мне!</p>
+                    <form id="feedbackForm" class="feedback-form-container">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Тема сообщения:</label>
+                            <input type="text" id="subject" name="subject" placeholder="О чём хотите поговорить?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Ваше сообщение:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Напишите ваше сообщение здесь..." required></textarea>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="submit" class="btn-submit">Отправить сообщение</button>
+                            <button type="reset" class="btn-reset">Очистить форму</button>
+                        </div>
+                    </form>
+                    <div id="formMessage" class="form-message" style="display: none;"></div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>2025. Личный блог. Все права защищены.</p>
+        </div>
+    </footer>
+    <div class="btm">
+        <a href="#">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <img src="стрелка.png">
+            </svg>
+        </a>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
